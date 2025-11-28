@@ -218,5 +218,5 @@ while True:
             next_speedup_at += COINS_FOR_SPEEDUP
 
     # Обновляем экран
-    pygame.display.update()
+    pygame.display.flip()
     FramePerSec.tick(FPS)
